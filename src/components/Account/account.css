@@ -1,0 +1,75 @@
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.accountWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+
+.accountTop {
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.accountBottom {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.accTitle {
+    background-color: #fff;
+}
+
+.left,
+.right {
+    background-color: white;
+}
+
+.balance {
+    text-align: center;
+}
+
+.expense,
+.income {
+    text-align: center;
+    background-color: #fff;
+}
+
+.balance {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.income {
+    color: rgb(2, 207, 139);
+}
+
+.expense {
+    color: rgb(239, 55, 55);
+}
+
+.row {
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(234, 222, 222);
+    border-left: none;
+}
